@@ -4,3 +4,7 @@ output "VPC" {
 output "Public_subnet" {
   value = "${aws_subnet.public.id}"
 }
+
+output "VPC" {"Private_subnet" {
+}
+  value = "${aws_subnet.private.id}"
