@@ -7,5 +7,6 @@ instance_type         ="t2.micro"
 key_name              ="terraform_april"
 subnet_id             ="subnet-0df3888e459626403"             
 region                ="eu-west-1"
+appname               ="wordpress"
 
       
