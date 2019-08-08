@@ -9,10 +9,6 @@ output "public_subnet" {
 output "private_subnet" {
   value = "${aws_subnet.private-sb.id}"
 }
-
-  output "pub_sec_group" {
-  value = "${aws_security_group.public.id}"
-}
 output "private_sec_group" {
   value = "${aws_security_group.privateDB.id}"
 }
