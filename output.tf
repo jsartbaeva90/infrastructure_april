@@ -6,10 +6,6 @@ output "public_subnet" {
   value = "${aws_subnet.public-sd.id}"
 }
 
-output "public_subnet" {
-  value = "${aws_subnet.public-gt.id}"
-}
-
 output "private_subnet" {
   value = "${aws_subnet.private-sb.id}"
 }
