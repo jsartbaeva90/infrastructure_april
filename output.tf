@@ -7,10 +7,6 @@ output "public_subnet" {
 }
 
 output "public_subnet" {
-  value = "${aws_subnet.public-sb.id}"
-}
-
-output "public_subnet" {
   value = "${aws_subnet.public-gt.id}"
 }
 
